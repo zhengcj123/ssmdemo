@@ -11,7 +11,7 @@ public class WelcomeController {
     @OperationLogger(modelName = "WelcomeController", option = "getWelcome")
     @GetMapping(value = "/getWelcome")
     public CommonResult<Integer> getWelcome(Integer num) {
-        //异常拦截测试
+        //异常拦截测试2020年10月22日10:08:59
     	System.out.println("controller方法执行！");
 //        int i = 9 / 0;
     	return new CommonResult<Integer>(200,"成功",1);
